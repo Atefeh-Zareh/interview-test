@@ -37,7 +37,7 @@ public class CrazyAirMockUp {
         flight2.setCabinClass(CabinClassEnum.BUSINESS.getName());
         flight2.setDepartureAirportCode(crazyAirsRequest.getOrigin());
         flight2.setDestinationAirportCode(crazyAirsRequest.getDestination());
-        flight2.tsetDepartureDate(crazyAirsRequest.getDepartureDate());
+        flight2.setDepartureDate(crazyAirsRequest.getDepartureDate());
         flight2.setArrivalDate(crazyAirsRequest.getReturnDate());
         flights.add(flight2);
 
